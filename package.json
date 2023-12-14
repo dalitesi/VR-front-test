@@ -1,0 +1,25 @@
+{
+  "name": "testesvr",
+  "version": "1.0.0",
+  "description": "",
+  "chromeWebSecurity": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  },
+  "dependencies": {
+    "@cypress/grep": "^3.1.5",
+    "cypress-plugin-tab": "^1.0.5"
+  },
+  "integrationFolder": "cypress/integration",
+  "e2e": {
+    "specPattern": "cypress/integration/**/*.spec.js"
+  }
+}
